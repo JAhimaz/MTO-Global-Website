@@ -10,6 +10,7 @@ import {
 import { LanguageProvider } from './containers/Language';
 
 import { Home } from './routes/Home';
+import { Navigation } from './routes/Navigation';
 
 // Routes
 
@@ -17,7 +18,10 @@ function App() {
   return (
     <div className="App">
       <LanguageProvider>
-        <BrowserRouter>
+        <BrowserRouter>          
+          <Routes>
+            <Route path="/" element={<Navigation />} />
+          </Routes>
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
