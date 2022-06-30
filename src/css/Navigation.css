@@ -1,15 +1,24 @@
 .center-margin{
-  margin-top: 3%;
+  /* margin-top: 3%; */
+  text-align: center;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.no-margin{
+  margin: 0px;
 }
 
 .logo-position{
-
   /* position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 10; */
+  top: -10%; */
+  align-items: center;
 }
 
 .navigation-logo{
@@ -23,6 +32,7 @@
 
 .navbar-text{
   color: black;
+
 }
 
 
@@ -35,12 +45,12 @@
 @media only screen and (min-width: 992px) {
   .center-margin{
     margin-top: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
 
   .navigation-logo{
-    height: 7em;
+    height: 8em;
   }
 
   .logo-position{
@@ -49,12 +59,24 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 1px;
+    top: -50%;
   }
   
 }
 
 /* # Desktop [ >= 1200px ] # */
 @media only screen and (min-width: 1200px) {
+  .center-margin{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
+  .navigation-logo{
+    height: 10em;
+  }
+
+  .logo-position{
+    top: -60%;
+  }
 }
