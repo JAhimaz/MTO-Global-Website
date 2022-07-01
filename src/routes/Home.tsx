@@ -14,7 +14,7 @@ export const Home = () => {
         <Carousel className="margin-carousel">
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 slide-img"
                 src={FirstSlide}
                 alt="First slide"
                 />
@@ -29,7 +29,7 @@ export const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 slide-img"
                 src={SecondSlide}
                 alt="Second slide"
                 />
@@ -45,7 +45,7 @@ export const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 slide-img"
                 src={ThirdSlide}
                 alt="Third slide"
                 />
@@ -61,7 +61,7 @@ export const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 slide-img"
                 src={FourthSlide}
                 alt="Fourth slide"
                 />
@@ -77,7 +77,7 @@ export const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 slide-img"
                 src={FifthSlide}
                 alt="Fifth slide"
                 />
