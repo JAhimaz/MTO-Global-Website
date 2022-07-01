@@ -1,0 +1,40 @@
+.margin-carousel{
+    margin-top: 2%;
+    /* z-index: -1; */
+}
+
+/* .caption-container{
+    position: relative;
+} */
+
+.text-wrapper{
+    /* position: absolute;
+    top: 20%;
+    left: 1%;
+    text-align: left; */
+}
+
+.text-bg{
+    background-color: #facbcc;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* # Laptop [ >= 992px ] # */
+@media only screen and (min-width: 992px) {
+    .text-wrapper{        
+        position:absolute;
+        top: 20%;
+        right: auto !important;
+        text-align: left !important;
+    }
+  
+}
+
+/* # Desktop [ >= 1200px ] # */
+@media only screen and (min-width: 1200px) {
+
+}

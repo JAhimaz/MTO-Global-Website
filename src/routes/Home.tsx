@@ -1,42 +1,94 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel'
 
+import "../css/Home.css"
+
+import FirstSlide from '../assets/first-image.png'
+import SecondSlide from '../assets/second-image.png'
+import ThirdSlide from '../assets/third-image.png'
+import FourthSlide from '../assets/fourth-image.png'
+import FifthSlide from '../assets/fifth-image.png'
+
 export const Home = () => {
     return (
-        <Carousel>
+        <Carousel className="margin-carousel">
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=First slide&bg=373940"
+                src={FirstSlide}
                 alt="First slide"
                 />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <Carousel.Caption className="text-wrapper">
+                    <h3 className="text-bg"> Custom Design</h3>
+                    <h1 className="text-bg"> Design for your business at every budget point</h1>
+                    <h1 className="text-bg"> business at</h1>
+                    <h1 className="text-bg"> every budget point</h1>
+
+                    <h1 className="text-bg"> Learn More</h1>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Second slide&bg=282c34"
+                src={SecondSlide}
                 alt="Second slide"
                 />
 
-                <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Carousel.Caption className="text-wrapper"> 
+                    <h3 className="text-bg"> Custom Design</h3>
+                    <h1 className="text-bg"> Design for your business at every budget point</h1>
+                    <h1 className="text-bg"> business at</h1>
+                    <h1 className="text-bg"> every budget point</h1>
+
+                    <h1 className="text-bg"> Learn More</h1>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Third slide&bg=20232a"
+                src={ThirdSlide}
                 alt="Third slide"
                 />
 
-                <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <Carousel.Caption className="text-wrapper"> 
+                    <h3 className="text-bg"> Custom Design</h3>
+                    <h1 className="text-bg"> Design for your business at every budget point</h1>
+                    <h1 className="text-bg"> business at</h1>
+                    <h1 className="text-bg"> every budget point</h1>
+
+                    <h1 className="text-bg"> Learn More</h1>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={FourthSlide}
+                alt="Fourth slide"
+                />
+
+                <Carousel.Caption className="text-wrapper"> 
+                    <h3 className="text-bg"> Custom Design</h3>
+                    <h1 className="text-bg"> Design for your business at every budget point</h1>
+                    <h1 className="text-bg"> business at</h1>
+                    <h1 className="text-bg"> every budget point</h1>
+
+                    <h1 className="text-bg"> Learn More</h1>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={FifthSlide}
+                alt="Fifth slide"
+                />
+
+                <Carousel.Caption className="text-wrapper"> 
+                    <h3 className="text-bg"> Custom Design</h3>
+                    <h1 className="text-bg"> Design for your business at every budget point</h1>
+                    <h1 className="text-bg"> business at</h1>
+                    <h1 className="text-bg"> every budget point</h1>
+
+                    <h1 className="text-bg"> Learn More</h1>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
