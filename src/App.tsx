@@ -22,9 +22,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigation />} />
           </Routes>
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<Home />} />
-          </Routes> */}
+          </Routes>
         </BrowserRouter>
       </LanguageProvider>
     </div>
