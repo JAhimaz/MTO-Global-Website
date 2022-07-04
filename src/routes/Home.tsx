@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import "../css/Home.css"
 
+import Overlay from '../assets/gradient-layer.png'
 import FirstSlide from '../assets/first-image.png'
 import SecondSlide from '../assets/second-image.png'
 import ThirdSlide from '../assets/third-image.png'
@@ -13,6 +14,11 @@ export const Home = () => {
     return (
         <Carousel className="margin-carousel">
             <Carousel.Item>
+                <img
+                className="d-block w-100 slide-img-overlay"
+                src={Overlay}
+                alt="Gradient layer"
+                />
                 <img
                 className="d-block w-100 slide-img"
                 src={FirstSlide}
@@ -28,6 +34,11 @@ export const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
+                <img
+                className="d-block w-100 slide-img-overlay"
+                src={Overlay}
+                alt="Gradient layer"
+                />
                 <img
                 className="d-block w-100 slide-img"
                 src={SecondSlide}
@@ -45,6 +56,11 @@ export const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
+                className="d-block w-100 slide-img-overlay"
+                src={Overlay}
+                alt="Gradient layer"
+                />
+                <img
                 className="d-block w-100 slide-img"
                 src={ThirdSlide}
                 alt="Third slide"
@@ -61,6 +77,11 @@ export const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
+                className="d-block w-100 slide-img-overlay"
+                src={Overlay}
+                alt="Gradient layer"
+                />
+                <img
                 className="d-block w-100 slide-img"
                 src={FourthSlide}
                 alt="Fourth slide"
@@ -76,6 +97,11 @@ export const Home = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
+                <img
+                className="d-block w-100 slide-img-overlay"
+                src={Overlay}
+                alt="Gradient layer"
+                />
                 <img
                 className="d-block w-100 slide-img"
                 src={FifthSlide}
