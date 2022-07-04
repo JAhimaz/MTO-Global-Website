@@ -1,5 +1,6 @@
 .carousel{
     height: 20em !important;
+    z-index: 1;
 }
 
 .margin-carousel{
@@ -39,6 +40,10 @@
     width: fit-content;
 }
 
+/* .caption-title{
+    font
+} */
+
 
 @media only screen and (min-width: 768px) {
 
@@ -53,7 +58,7 @@
 /* # Desktop [ >= 1200px ] # */
 @media only screen and (min-width: 1200px) {
     .carousel{
-        height: 50em !important;
+        height: 30em !important;
     }
 
     .carousel-indicators [data-bs-target] {
