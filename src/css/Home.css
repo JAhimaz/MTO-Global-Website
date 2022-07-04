@@ -75,6 +75,18 @@
     margin-bottom: 5px;
 }
 
+.btn {    
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(231,200,37,1) 100%) !important; 
+    border: 1px solid transparent;
+    border-color: #ddc024 !important;
+    padding: .375rem .75rem;
+    font-size: var(--small-font) !important;
+    font-weight: bold !important;
+    color: white !important;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -130,5 +142,9 @@
     
     .caption-text{
         font-size: var(--large-font);
+    }
+
+    .btn {    
+        font-size: var(--large-font) !important;
     }
 }

@@ -30,7 +30,7 @@ export const Home = () => {
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
-                    <p className="caption-text"> Learn More</p>
+                    <a href="#" className="btn caption-text" role="button"> Learn More</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -51,7 +51,7 @@ export const Home = () => {
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
-                    <p className="caption-text"> Learn More</p>
+                    <a href="#" className="btn caption-text" role="button"> Learn More</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -72,7 +72,7 @@ export const Home = () => {
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
-                    <p className="caption-text"> Learn More</p>
+                    <a href="#" className="btn caption-text" role="button"> Learn More</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -93,7 +93,7 @@ export const Home = () => {
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
-                    <p className="caption-text"> Learn More</p>
+                    <a href="#" className="btn caption-text" role="button"> Learn More</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -114,7 +114,7 @@ export const Home = () => {
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
-                    <p className="caption-text"> Learn More</p>
+                    <a href="#" className="btn caption-text" role="button"> Learn More</a>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
