@@ -44,13 +44,16 @@
     background-color: yellow !important;
 }
 
+.carousel-item{
+    height: 100% !important;
+}
 
 .slide-img{
-    height: 20em;
+    height: 100%;
 }
 
 .slide-img-overlay{
-    height: 20em;
+    height: 100%;
     z-index: 3;
     position: absolute;
 
@@ -105,7 +108,7 @@
 /* # Desktop [ >= 1200px ] # */
 @media only screen and (min-width: 1200px) {
     .carousel{
-        height: 30em !important;
+        height: 25em !important;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -115,17 +118,17 @@
     }
 
     .slide-img{
-        height: auto;
+        height: 100%;
     }
 
     .slide-img-overlay{
-        height: auto;
+        height: 100%;
     }
 
     .carousel-indicators{
         position: absolute;
         right: auto !important;
-        bottom: 15% !important;
+        bottom: 5% !important;
         justify-content: start !important;
         margin-right: auto !important;
         margin-bottom: 1rem !;
@@ -154,6 +157,9 @@
 }
 
 @media only screen and (min-width: 1400px){
+    .carousel-indicators{
+        bottom: 1% !important;
+    }
     .caption-title{
         font-size: var(--large-font) !important;
     }
@@ -170,23 +176,27 @@
 }
 
 @media only screen and (min-width: 1920px){
+    .carousel{
+        height: 30em !important;
+    }
+
     .caption-title{
         font-size: var(--xlarge-font) !important;
     }
     
     .caption-text{
-        font-size: var(--xxxlarge-font) !important;
+        font-size: var(--xlarge-font) !important;
         margin-bottom: -15px;
     }
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--xxlarge-font) !important;
+        font-size: var(--xlarge-font) !important;
         padding: .8rem 5rem !important;
     }
 
     .carousel-indicators{
-        bottom: -60% !important;
+        bottom: 1% !important;
     }
 
     .carousel-control-next, .carousel-control-prev {
