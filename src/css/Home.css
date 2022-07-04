@@ -1,3 +1,5 @@
+@import '../css/root.css';
+
 .carousel{
     height: 20em !important;
     z-index: 1;
@@ -15,9 +17,9 @@
 
 .text-wrapper{
     /* position: absolute;
-    top: 20%;
-    left: 1%;
-    text-align: left; */
+    left: 1%; */
+    top: 5% !important;
+    text-align: left !important;
 }
 
 .carousel-indicators{
@@ -35,14 +37,27 @@
     height: 20em;
 }
 
-.text-bg{
-    background-color: #facbcc;
+/* .text-bg{
+    background-color: var(--background-color);
     width: fit-content;
+    text-align: center;
+} */
+
+.caption-title{
+    font-size: var(--xsmall-font);
+    font-weight: bold;
+    background-color: var(--background-color);
+    width: fit-content;
+    margin-bottom: 5px;
 }
 
-/* .caption-title{
-    font
-} */
+.caption-text{
+    font-size: var(--small-font);
+    font-weight: bold;
+    background-color: var(--background-color);
+    width: fit-content;
+    margin-bottom: 5px;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -87,5 +102,13 @@
         top: 20%;
         right: auto !important;
         text-align: left !important;
+    }
+
+    .caption-title{
+        font-size: var(--medium-font);
+    }
+    
+    .caption-text{
+        font-size: var(--large-font);
     }
 }

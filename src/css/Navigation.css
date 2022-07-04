@@ -1,3 +1,5 @@
+@import '../css/root.css';
+
 .center-margin{
   /* margin-top: 3%; */
   text-align: center;
@@ -28,7 +30,7 @@
 }
 
 .navbar-bgcolor{
-  background-color: #facbcc;
+  background-color: var(--background-color);
 }
 
 .navbar-text{

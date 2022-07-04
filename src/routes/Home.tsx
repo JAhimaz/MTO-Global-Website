@@ -19,12 +19,12 @@ export const Home = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption className="text-wrapper">
-                    <h3 className="text-bg"> Custom Design</h3>
-                    <h1 className="text-bg"> Design for your business at every budget point</h1>
-                    <h1 className="text-bg"> business at</h1>
-                    <h1 className="text-bg"> every budget point</h1>
+                    <p className="caption-title"> Custom Design</p>
+                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> business at</p>
+                    <p className="caption-text"> every budget point</p>
 
-                    <h1 className="text-bg"> Learn More</h1>
+                    <p className="caption-text"> Learn More</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,12 +35,12 @@ export const Home = () => {
                 />
 
                 <Carousel.Caption className="text-wrapper"> 
-                    <h3 className="text-bg"> Custom Design</h3>
-                    <h1 className="text-bg"> Design for your business at every budget point</h1>
-                    <h1 className="text-bg"> business at</h1>
-                    <h1 className="text-bg"> every budget point</h1>
+                    <p className="caption-title"> Custom Design</p>
+                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> business at</p>
+                    <p className="caption-text"> every budget point</p>
 
-                    <h1 className="text-bg"> Learn More</h1>
+                    <p className="caption-text"> Learn More</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -51,12 +51,12 @@ export const Home = () => {
                 />
 
                 <Carousel.Caption className="text-wrapper"> 
-                    <h3 className="text-bg"> Custom Design</h3>
-                    <h1 className="text-bg"> Design for your business at every budget point</h1>
-                    <h1 className="text-bg"> business at</h1>
-                    <h1 className="text-bg"> every budget point</h1>
+                    <p className="caption-title"> Custom Design</p>
+                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> business at</p>
+                    <p className="caption-text"> every budget point</p>
 
-                    <h1 className="text-bg"> Learn More</h1>
+                    <p className="caption-text"> Learn More</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -67,12 +67,12 @@ export const Home = () => {
                 />
 
                 <Carousel.Caption className="text-wrapper"> 
-                    <h3 className="text-bg"> Custom Design</h3>
-                    <h1 className="text-bg"> Design for your business at every budget point</h1>
-                    <h1 className="text-bg"> business at</h1>
-                    <h1 className="text-bg"> every budget point</h1>
+                    <p className="caption-title"> Custom Design</p>
+                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> business at</p>
+                    <p className="caption-text"> every budget point</p>
 
-                    <h1 className="text-bg"> Learn More</h1>
+                    <p className="caption-text"> Learn More</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -83,12 +83,12 @@ export const Home = () => {
                 />
 
                 <Carousel.Caption className="text-wrapper"> 
-                    <h3 className="text-bg"> Custom Design</h3>
-                    <h1 className="text-bg"> Design for your business at every budget point</h1>
-                    <h1 className="text-bg"> business at</h1>
-                    <h1 className="text-bg"> every budget point</h1>
+                    <p className="caption-title"> Custom Design</p>
+                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> business at</p>
+                    <p className="caption-text"> every budget point</p>
 
-                    <h1 className="text-bg"> Learn More</h1>
+                    <p className="caption-text"> Learn More</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
