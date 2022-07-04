@@ -1,0 +1,86 @@
+.carousel{
+    height: 20em !important;
+}
+
+.margin-carousel{
+    margin-top: 2%;
+    /* z-index: -1; */
+}
+
+
+/* .caption-container{
+    position: relative;
+} */
+
+.text-wrapper{
+    /* position: absolute;
+    top: 20%;
+    left: 1%;
+    text-align: left; */
+}
+
+.carousel-indicators{
+    position: absolute;
+    list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px !important;
+    height: 1em !important;
+    border-radius: 100% !important;
+}
+
+.slide-img{
+    height: 20em;
+}
+
+.text-bg{
+    background-color: #facbcc;
+    width: fit-content;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* # Laptop [ >= 992px ] # */
+@media only screen and (min-width: 992px) {
+
+  
+}
+
+/* # Desktop [ >= 1200px ] # */
+@media only screen and (min-width: 1200px) {
+    .carousel{
+        height: 50em !important;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 30px !important;
+        height: 2em !important;
+        border-radius: 100% !important;
+    }
+
+    .slide-img{
+        height: auto;
+    }
+
+    .carousel-indicators{
+        position: absolute;
+        right: auto !important;
+        bottom: 15% !important;
+        justify-content: start !important;
+        margin-right: auto !important;
+        margin-bottom: 1rem !;
+        margin-left: 15% !important;
+        list-style: none;
+    }
+
+    .text-wrapper{        
+        position:absolute;
+        top: 20%;
+        right: auto !important;
+        text-align: left !important;
+    }
+}
