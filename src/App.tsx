@@ -26,9 +26,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<Footer />} />
-          </Routes> */}
+          </Routes>
         </BrowserRouter>
       </LanguageProvider>
     </div>
