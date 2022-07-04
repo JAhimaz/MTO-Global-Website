@@ -3,6 +3,8 @@
     /* ### Colours ### */
     --black: #000;
     --background-color: #facbcc;
+    --btn-background-color: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(231,200,37,1) 100%);
+    --btn-border-color: #ddc024;
 
     /* ### Font Sizes ### */
     --xxxlarge-font: 5.6rem;
