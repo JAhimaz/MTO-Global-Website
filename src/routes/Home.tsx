@@ -26,7 +26,7 @@ export const Home = () => {
                 />
                 <Carousel.Caption className="text-wrapper">
                     <p className="caption-title"> Custom Design</p>
-                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> Design for your</p>
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
@@ -47,7 +47,7 @@ export const Home = () => {
 
                 <Carousel.Caption className="text-wrapper"> 
                     <p className="caption-title"> Custom Design</p>
-                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> Design for your</p>
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
@@ -68,7 +68,7 @@ export const Home = () => {
 
                 <Carousel.Caption className="text-wrapper"> 
                     <p className="caption-title"> Custom Design</p>
-                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> Design for your</p>
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
@@ -89,7 +89,7 @@ export const Home = () => {
 
                 <Carousel.Caption className="text-wrapper"> 
                     <p className="caption-title"> Custom Design</p>
-                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> Design for your</p>
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
@@ -110,7 +110,7 @@ export const Home = () => {
 
                 <Carousel.Caption className="text-wrapper"> 
                     <p className="caption-title"> Custom Design</p>
-                    <p className="caption-text"> Design for your business at every budget point</p>
+                    <p className="caption-text"> Design for your</p>
                     <p className="caption-text"> business at</p>
                     <p className="caption-text"> every budget point</p>
 
