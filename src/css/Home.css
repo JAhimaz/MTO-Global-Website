@@ -164,3 +164,28 @@
         font-size: var(--large-font) !important;
     }
 }
+
+@media only screen and (min-width: 1920px){
+    .caption-title{
+        font-size: var(--xlarge-font) !important;
+    }
+    
+    .caption-text{
+        font-size: var(--xxxlarge-font) !important;
+        margin-bottom: -15px;
+    }
+
+    .btn {    
+        margin-top: 25px;
+        font-size: var(--xxlarge-font) !important;
+        padding: .8rem 5rem !important;
+    }
+
+    .carousel-indicators{
+        bottom: -60% !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        z-index: 5 !important;
+    }
+}

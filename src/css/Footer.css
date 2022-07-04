@@ -1,0 +1,49 @@
+@import '../css/root.css';
+
+.container-margin{
+    height: 100px;
+    display: block;
+    position: relative;
+}
+
+.wrapper{
+    background-color: black;
+    height: 100%;
+}
+
+.bg-img{
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+
+/* # Ipad [ >= 768px ] # */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* # Laptop [ >= 992px ] # */
+@media only screen and (min-width: 992px) {
+    /* .container-margin{
+        height: 300px;
+    } */
+}
+
+/* # Desktop [ >= 1200px ] # */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1400px) {      
+}
+
+
+/*
+
+Overriding example
+
+.maintitle {
+    text-align: center !important; <- Must include !important or it will not override.
+} 
+
+*/
