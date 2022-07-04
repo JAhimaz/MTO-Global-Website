@@ -1,0 +1,16 @@
+:root {
+
+    /* ### Colours ### */
+    --black: #000;
+    --background-color: #facbcc;
+
+    /* ### Font Sizes ### */
+    --xxxlarge-font: 5.6rem;
+    --xxlarge-font: 4rem;
+    --xlarge-font: 2.4rem;
+    --large-font: 1.8rem;
+    --medium-font: 1.6rem;
+    --small-font: 1.4rem;
+    --xsmall-font: 1.3rem;
+    --xxsmall-font: 1rem;
+}
