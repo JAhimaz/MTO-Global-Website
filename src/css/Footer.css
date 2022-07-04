@@ -1,7 +1,6 @@
 @import '../css/root.css';
 
 .container-margin{
-    height: 100px;
     display: block;
     position: relative;
 }
@@ -15,6 +14,41 @@
     position: absolute;
     height: auto;
     width: auto;
+    min-height: 100% !important;
+    height: 100% !important;
+}
+
+
+.address{
+    margin-top: 2rem;
+    font-size: var(--xxsmall-font);
+    color: white;
+    opacity: 100%;
+}
+
+.address-text{
+    font-size: var(--xxsmall-font);
+    color: white;
+    opacity: 100%;
+}
+
+.icon{
+    margin-top: 2rem;
+    margin-bottom: 30px !important;
+    z-index: 6;
+}
+
+.icon-img{
+    padding-left: 30px;    
+}
+
+.btn-img{    
+    padding: .575rem 1rem !important;
+    font-size: var(--small-font) !important;
+    font-weight: bold !important;
+    color: white !important;
+    border-radius: 0px !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 /* # Ipad [ >= 768px ] # */
@@ -27,6 +61,17 @@
     /* .container-margin{
         height: 300px;
     } */
+
+    .address-margin{
+        margin-bottom: 30px !important;
+        padding-left: 50px !important;
+        text-align: left;
+        
+    }
+
+    .icon{
+        margin-top: 10rem;
+    }
 }
 
 /* # Desktop [ >= 1200px ] # */

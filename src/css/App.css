@@ -4,6 +4,7 @@
   text-align: center;
   font-family: Source Sans Pro;
   height: 100%;
+  overflow: hidden !important;
 }
 
 .App-logo {
