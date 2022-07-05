@@ -15,11 +15,7 @@ export const Footer = () => {
     return (
         <Container fluid className="container-margin">                        
             <Row className="wrapper">
-                <img
-                className="d-block bg-img"
-                src={BgImg}
-                alt="Planet" 
-                />
+
                 <Col sm={12} lg={6} className="address-margin d-flex justify-content-center">
                     <div className="address">
                         <p className="address-text">MTO GLOBAL (1234567890)</p>
@@ -38,6 +34,11 @@ export const Footer = () => {
                         <a href="#"><img src={WS} alt="Whatsapp " className="icon-img"/></a> 
                     </div>
                 </Col>
+                {/* <img
+                className="d-block bg-img"
+                src={BgImg}
+                alt="Planet" 
+                /> */}
             </Row>
         </Container>
     );

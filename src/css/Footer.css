@@ -6,6 +6,10 @@
 }
 
 .wrapper{
+    background-image: url('../assets/footer-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
     height: 100%;
 }
