@@ -3,7 +3,7 @@
 .center-margin{
   /* margin-top: 3%; */
   text-align: center;
-  z-index: 6;
+  z-index: 6 !important;
 }
 
 .navbar {
@@ -57,7 +57,7 @@
   }
 
   .navigation-logo{
-    height: 8em;
+    height: 7em;
   }
 
   .logo-position{
@@ -79,9 +79,9 @@
     margin-right: 10%;
   }
 
-  .navigation-logo{
+  /* .navigation-logo{
     height: 10em;
-  }
+  } */
 
   .logo-position{
     top: -60%;

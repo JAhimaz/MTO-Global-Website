@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, Row, Col} from "react-bootstrap";
 import { Container } from "react-bootstrap";
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo.png';
 
 import "../css/Navigation.css"
 
