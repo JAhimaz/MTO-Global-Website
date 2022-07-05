@@ -1,5 +1,9 @@
+@import '../css/root.css';
+
 .carousel{
     height: 20em !important;
+    z-index: 5;
+    overflow: hidden !important;
 }
 
 .margin-carousel{
@@ -7,36 +11,87 @@
     /* z-index: -1; */
 }
 
-
+.no-padding{
+    padding: 0px !important;
+    margin: 0px !important;
+}
 /* .caption-container{
     position: relative;
 } */
 
 .text-wrapper{
     /* position: absolute;
-    top: 20%;
-    left: 1%;
-    text-align: left; */
+    left: 1%; */
+    top: 5% !important;
+    text-align: left !important;
+    z-index: 4;
 }
 
 .carousel-indicators{
     position: absolute;
     list-style: none;
+    z-index: 5 !important;
 }
 
 .carousel-indicators [data-bs-target] {
     width: 15px !important;
     height: 1em !important;
     border-radius: 100% !important;
+    opacity: 100% !important;
+}
+
+.carousel-indicators .active {
+    background-color: yellow !important;
+}
+
+.carousel-item{
+    height: 20em !important;
 }
 
 .slide-img{
-    height: 20em;
+    height: 20em !important;
 }
 
-.text-bg{
-    background-color: #facbcc;
+.slide-img-overlay{
+    height: 20em !important;
+    z-index: 3;
+    position: absolute;
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: 5 !important;
+}
+
+/* .text-bg{
+    background-color: var(--background-color);
     width: fit-content;
+    text-align: center;
+} */
+
+.caption-title{
+    font-size: var(--xsmall-font);
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.caption-text{
+    font-size: var(--small-font);
+    font-weight: 100;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.btn {    
+    background: var(--btn-background-color) !important; 
+    border-color: var(--btn-border-color) !important;
+    padding: .575rem 1rem !important;
+    font-size: var(--small-font) !important;
+    font-weight: bold !important;
+    color: white !important;
+    border-radius: 0px !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 
@@ -53,23 +108,31 @@
 /* # Desktop [ >= 1200px ] # */
 @media only screen and (min-width: 1200px) {
     .carousel{
-        height: 50em !important;
+        height: 25em !important;
     }
 
     .carousel-indicators [data-bs-target] {
         width: 30px !important;
         height: 2em !important;
-        border-radius: 100% !important;
+        border-radius: 100% !important;        
+    }
+
+    .carousel-item{
+        height: 25em !important;
     }
 
     .slide-img{
-        height: auto;
+        height: 25em !important;
+    }
+
+    .slide-img-overlay{
+        height: 25em !important;
     }
 
     .carousel-indicators{
         position: absolute;
         right: auto !important;
-        bottom: 15% !important;
+        bottom: 5% !important;
         justify-content: start !important;
         margin-right: auto !important;
         margin-bottom: 1rem !;
@@ -82,5 +145,77 @@
         top: 20%;
         right: auto !important;
         text-align: left !important;
+    }
+
+    .caption-title{
+        font-size: var(--medium-font) !important;
+    }
+    
+    .caption-text{
+        font-size: var(--large-font) !important;
+    }
+
+    .btn {    
+        font-size: var(--large-font) !important;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .carousel-indicators{
+        bottom: 1% !important;
+    }
+    .caption-title{
+        font-size: var(--large-font) !important;
+    }
+    
+    .caption-text{
+        font-size: var(--xlarge-font) !important;
+        margin-bottom: -15px;
+    }
+
+    .btn {    
+        margin-top: 25px;
+        font-size: var(--large-font) !important;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .carousel{
+        height: 30em !important;
+    }
+
+    .carousel-item{
+        height: 30em !important;
+    }
+
+    .slide-img{
+        height: 30em !important;
+    }
+
+    .slide-img-overlay{
+        height: 30em !important;
+    }
+
+    .caption-title{
+        font-size: var(--xlarge-font) !important;
+    }
+    
+    .caption-text{
+        font-size: var(--xlarge-font) !important;
+        margin-bottom: -15px;
+    }
+
+    .btn {    
+        margin-top: 25px;
+        font-size: var(--xlarge-font) !important;
+        padding: .8rem 5rem !important;
+    }
+
+    .carousel-indicators{
+        bottom: 1% !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        z-index: 5 !important;
     }
 }

@@ -1,6 +1,9 @@
+@import '../css/root.css';
+
 .center-margin{
   /* margin-top: 3%; */
   text-align: center;
+  z-index: 6;
 }
 
 .full-width{
@@ -26,9 +29,9 @@
   height: 5em;
 }
 
-.navbar-bgcolor{
-  background-color: #facbcc;
-}
+/* .navbar-bgcolor{
+  background-color: var(--background-color);
+} */
 
 .navbar-text{
   color: black;

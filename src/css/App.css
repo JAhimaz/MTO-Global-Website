@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 .App {
   text-align: center;
+  font-family: Source Sans Pro;
+  height: 100%;
+  overflow: hidden !important;
 }
 
 .App-logo {
@@ -35,4 +40,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.body{
+  height: 100%;
+  width: 100%;
 }
