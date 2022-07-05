@@ -29,9 +29,9 @@
   height: 5em;
 }
 
-.navbar-bgcolor{
+/* .navbar-bgcolor{
   background-color: var(--background-color);
-}
+} */
 
 .navbar-text{
   color: black;
