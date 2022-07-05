@@ -11,6 +11,7 @@ import { LanguageProvider } from './containers/Language';
 
 import { Home } from './routes/Home';
 import { Navigation } from './routes/Navigation';
+import { Footer } from './routes/Footer';
 
 // Routes
 
@@ -22,6 +23,9 @@ function App() {
         <BrowserRouter>          
           <Routes>
             <Route path="/" element={<Home />} />
+          </Routes>
+          <Routes>
+            <Route path="/" element={<Footer />} />
           </Routes>
         </BrowserRouter>
       </LanguageProvider>

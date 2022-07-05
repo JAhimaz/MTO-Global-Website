@@ -1,0 +1,94 @@
+@import '../css/root.css';
+
+.container-margin{
+    display: block;
+    position: relative;
+}
+
+.wrapper{
+    background-color: black;
+    height: 100%;
+}
+
+.bg-img{
+    position: absolute;
+    height: auto;
+    width: auto;
+    min-height: 100% !important;
+    height: 100% !important;
+}
+
+
+.address{
+    margin-top: 2rem;
+    font-size: var(--xxsmall-font);
+    color: white;
+    opacity: 100%;
+}
+
+.address-text{
+    font-size: var(--xxsmall-font);
+    color: white;
+    opacity: 100%;
+}
+
+.icon{
+    margin-top: 2rem;
+    margin-bottom: 30px !important;
+    z-index: 6;
+}
+
+.icon-img{
+    padding-left: 30px;    
+}
+
+.btn-img{    
+    padding: .575rem 1rem !important;
+    font-size: var(--small-font) !important;
+    font-weight: bold !important;
+    color: white !important;
+    border-radius: 0px !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* # Ipad [ >= 768px ] # */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* # Laptop [ >= 992px ] # */
+@media only screen and (min-width: 992px) {
+    /* .container-margin{
+        height: 300px;
+    } */
+
+    .address-margin{
+        margin-bottom: 30px !important;
+        padding-left: 50px !important;
+        text-align: left;
+        
+    }
+
+    .icon{
+        margin-top: 10rem;
+    }
+}
+
+/* # Desktop [ >= 1200px ] # */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1400px) {      
+}
+
+
+/*
+
+Overriding example
+
+.maintitle {
+    text-align: center !important; <- Must include !important or it will not override.
+} 
+
+*/

@@ -1,6 +1,9 @@
+@import '../css/root.css';
+
 .center-margin{
   /* margin-top: 3%; */
   text-align: center;
+  z-index: 6;
 }
 
 .navbar {
