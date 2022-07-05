@@ -1,5 +1,6 @@
 .carousel{
     height: 20em !important;
+    z-index: 0;
 }
 
 .margin-carousel{
@@ -11,7 +12,7 @@
 /* .caption-container{
     position: relative;
 } */
-
+ 
 .text-wrapper{
     /* position: absolute;
     top: 20%;
@@ -35,7 +36,7 @@
 }
 
 .text-bg{
-    background-color: #facbcc;
+    /* background-color: #facbcc; */
     width: fit-content;
 }
 

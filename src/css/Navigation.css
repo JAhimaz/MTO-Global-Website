@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.navbar {
+  z-index: 1;
+}
+
 .full-width{
   width: 100%;
 }
@@ -27,7 +31,7 @@
 }
 
 .navbar-bgcolor{
-  background-color: #facbcc;
+
 }
 
 .navbar-text{
