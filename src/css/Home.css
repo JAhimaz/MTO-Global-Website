@@ -2,12 +2,8 @@
 
 .carousel{
     height: 20em !important;
-<<<<<<< HEAD
-    z-index: 0;
-=======
     z-index: 5;
     overflow: hidden !important;
->>>>>>> 2298b39bf24883cb840f26a4f194eb8505436f94
 }
 
 .margin-carousel{
@@ -56,24 +52,8 @@
     height: 20em !important;
 }
 
-<<<<<<< HEAD
 .text-bg{
     /* background-color: #facbcc; */
-=======
-.slide-img-overlay{
-    height: 20em !important;
-    z-index: 3;
-    position: absolute;
-
-}
-
-.carousel-control-next, .carousel-control-prev {
-    z-index: 5 !important;
-}
-
-/* .text-bg{
-    background-color: var(--background-color);
->>>>>>> 2298b39bf24883cb840f26a4f194eb8505436f94
     width: fit-content;
     text-align: center;
 } */
