@@ -106,8 +106,8 @@
     }
 
     .carousel-indicators [data-bs-target] {
-        width: 30px !important;
-        height: 2em !important;
+        width: 15px !important;
+        height: 1em !important;
         border-radius: 100% !important;        
     }
 
@@ -150,7 +150,7 @@
     }
 
     .btn {    
-        font-size: var(--large-font) !important;
+        font-size: var(--medium-font) !important;
     }
 }
 
@@ -163,13 +163,13 @@
     }
     
     .caption-text{
-        font-size: var(--xlarge-font) !important;
+        font-size: var(--large-font) !important;
         margin-bottom: -15px;
     }
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--large-font) !important;
+        font-size: var(--medium-font) !important;
     }
 }
 
@@ -191,17 +191,17 @@
     }
 
     .caption-title{
-        font-size: var(--xlarge-font) !important;
+        font-size: var(--large-font) !important;
     }
     
     .caption-text{
-        font-size: var(--xlarge-font) !important;
+        font-size: var(--large-font) !important;
         margin-bottom: -15px;
     }
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--xlarge-font) !important;
+        font-size: var(--medium-font) !important;
         padding: .8rem 5rem !important;
     }
 
