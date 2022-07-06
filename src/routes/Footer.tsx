@@ -15,7 +15,6 @@ export const Footer = () => {
     return (
         <Container fluid className="container-margin">                        
             <Row className="wrapper">
-
                 <Col sm={12} lg={6} className="address-margin d-flex justify-content-center">
                     <div className="address">
                         <p className="address-text">MTO GLOBAL (1234567890)</p>

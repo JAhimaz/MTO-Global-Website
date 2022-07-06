@@ -19,7 +19,7 @@ export const Navigation = () => {
                             <Col lg={2} >
                                 <Nav.Link href="#link">HOW TO ORDER</Nav.Link>
                             </Col>
-                            <Col lg={3} >
+                            <Col lg={2} className="logo-column">
                                 <Navbar.Brand className="logo-position" href="#home">
                                 <img src={Logo} className="navigation-logo" alt="MTO GLobal"/>
                                 </Navbar.Brand>                                
@@ -27,7 +27,7 @@ export const Navigation = () => {
                             <Col lg={2} >
                                 <Nav.Link href="#link">ONLINE STORE</Nav.Link>
                             </Col>
-                            <Col lg={3} >
+                            <Col lg={2} >
                                 <Nav.Link href="#link">WHERE TO FIND US</Nav.Link>
                             </Col>                                                
                         </Nav>

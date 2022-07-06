@@ -4,10 +4,21 @@
   /* margin-top: 3%; */
   text-align: center;
   z-index: 6 !important;
+  background-color: white;
 }
 
 .navbar {
   z-index: 1;
+
+  /* padding-top: 5px; */
+}
+
+.logo-column {
+  display: none;
+}
+
+.navbar-nav {
+  justify-content: space-around;
 }
 
 .full-width{
@@ -25,6 +36,7 @@
   left: 0;
   right: 0;
   top: -10%; */
+  margin: 0 !important;
   align-items: center;
 }
 
@@ -45,11 +57,19 @@
 
 
 @media only screen and (min-width: 768px) {
+  .navigation-logo{
+    height: 7em;
+  }
 
 }
 
 /* # Laptop [ >= 992px ] # */
 @media only screen and (min-width: 992px) {
+
+  .logo-column {
+    display: inline;
+  }
+
   .center-margin{
     margin-top: 3%;
     margin-left: 8%;
@@ -57,7 +77,7 @@
   }
 
   .navigation-logo{
-    height: 7em;
+    height: 9em;
   }
 
   .logo-position{

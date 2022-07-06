@@ -2,7 +2,8 @@
 
 .container-margin{
     display: block;
-    position: relative;
+    position: fixed;
+    bottom: 0;
 }
 
 .wrapper{

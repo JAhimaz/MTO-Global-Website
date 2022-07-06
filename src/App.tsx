@@ -24,10 +24,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-          <Routes>
-            <Route path="/" element={<Footer />} />
-          </Routes>
         </BrowserRouter>
+        <Footer />
       </LanguageProvider>
     </div>
   );
