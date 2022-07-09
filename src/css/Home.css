@@ -1,13 +1,18 @@
 @import '../css/root.css';
 
 .carousel{
-    height: 20em !important;
+    flex-grow: 1 ;
     z-index: 5;
     overflow: hidden !important;
 }
 
+.container-fluid{
+    flex-grow: 1 !important;
+}
+
 .margin-carousel{
     margin-top: 2%;
+    align-items: stretch;
     /* z-index: -1; */
 }
 
@@ -45,16 +50,24 @@
 }
 
 .carousel-item{
-    height: 20em !important;
+     height: 100% !important;
+     width: 100% !important;
+}
+
+.carousel-inner{
+    height: 100% !important;
+    width: 100% !important;
 }
 
 .slide-img-overlay{
     position: absolute;
-    height: 20em !important;
+    height: 100% !important;
+    width: 100% !important;
 }
 
 .slide-img{
-    height: 20em !important;
+     height: 100% !important;
+     width: 100% !important;
 }
 
 .text-bg{
@@ -101,9 +114,9 @@
 
 /* # Desktop [ >= 1200px ] # */
 @media only screen and (min-width: 1200px) {
-    .carousel{
+    /* .carousel{
         height: 25em !important;
-    }
+    } */
 
     .carousel-indicators [data-bs-target] {
         width: 0.85em !important;
@@ -174,9 +187,9 @@
 }
 
 @media only screen and (min-width: 1920px){
-    .carousel, .carousel-item, .slide-img, .slide-img-overlay { 
+    /* .carousel, .carousel-item, .slide-img, .slide-img-overlay { 
         height: 28em !important;
-    }
+    } */
 
     /* .carousel-item{
         height: 32em !important;
