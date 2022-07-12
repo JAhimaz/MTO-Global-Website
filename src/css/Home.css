@@ -2,6 +2,7 @@
 
 .carousel{
     flex-grow: 1 ;
+    height: 100%;
     z-index: 5;
     overflow: hidden !important;
 }
@@ -94,11 +95,15 @@
     background: var(--btn-background-color) !important; 
     border-color: var(--btn-border-color) !important;
     padding: .575rem 1rem !important;
-    font-size: var(--small-font) !important;
+    font-size: var(--xsmall-font) !important;
     font-weight: bold !important;
     color: white !important;
     border-radius: 0px !important;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+
+.btn:hover{
+    background-color: var(--btn-border-color) !important;    
 }
 
 
@@ -162,9 +167,9 @@
         font-size: var(--large-font) !important;
     }
 
-    .btn {    
+    /* .btn {    
         font-size: var(--medium-font) !important;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1400px){
@@ -182,7 +187,7 @@
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--medium-font) !important;
+        /* font-size: var(--medium-font) !important; */
     }
 }
 
@@ -214,7 +219,7 @@
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--medium-font) !important;
+        /* font-size: var(--medium-font) !important; */
         padding: .8rem 5rem !important;
     }
 
