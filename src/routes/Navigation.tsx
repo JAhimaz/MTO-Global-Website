@@ -21,7 +21,7 @@ export const Navigation = () => {
                             </Col>
                             <Col lg={2} className="logo-column">
                                 <Navbar.Brand className="logo-position" href="#home">
-                                <img src={Logo} className="navigation-logo" alt="MTO GLobal"/>
+                                <img src={Logo} className="navigation-logo box-shadow" alt="MTO GLobal"/>
                                 </Navbar.Brand>                                
                             </Col>
                             <Col lg={2} >
