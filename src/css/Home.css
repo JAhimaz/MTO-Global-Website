@@ -95,8 +95,8 @@
 .btn {    
     background: var(--btn-background-color) !important; 
     border-color: var(--btn-border-color) !important;
-    padding: .575rem 1rem !important;
-    font-size: var(--xsmall-font) !important;
+    padding: .4rem .9rem !important;
+    font-size: var(--xxsmall-font) !important;
     font-weight: bold !important;
     color: white !important;
     border-radius: 0px !important;
@@ -104,7 +104,8 @@
 }
 
 .btn:hover{
-    background-color: var(--btn-border-color) !important;    
+    background-color: var(--btn-border-color) !important;
+    color: black !important;    
 }
 
 
@@ -188,7 +189,6 @@
 
     .btn {    
         margin-top: 25px;
-        /* font-size: var(--medium-font) !important; */
     }
 }
 
@@ -221,7 +221,7 @@
     .btn {    
         margin-top: 25px;
         /* font-size: var(--medium-font) !important; */
-        padding: .8rem 5rem !important;
+         
     }
 
     .carousel-indicators{
