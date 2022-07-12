@@ -13,11 +13,11 @@ export const Navigation = () => {
                 <Row className="full-width">                    
                     <Navbar.Collapse className="full-width">                    
                         <Nav className="navbar-links full-width">                    
-                            <Col lg={2} >
-                                <Nav.Link href="#home">OUR SERVICE</Nav.Link>
+                            <Col lg={2}>
+                                <Nav.Link href="#home" role="button" className="box-shadow">OUR SERVICE</Nav.Link>
                             </Col>
                             <Col lg={2} >
-                                <Nav.Link href="#link">HOW TO ORDER</Nav.Link>
+                                <Nav.Link href="#link" className="box-shadow">HOW TO ORDER</Nav.Link>
                             </Col>
                             <Col lg={2} className="logo-column">
                                 <Navbar.Brand className="logo-position" href="#home">
@@ -25,10 +25,10 @@ export const Navigation = () => {
                                 </Navbar.Brand>                                
                             </Col>
                             <Col lg={2} >
-                                <Nav.Link href="#link">ONLINE STORE</Nav.Link>
+                                <Nav.Link href="#link" className="box-shadow">ONLINE STORE</Nav.Link>
                             </Col>
                             <Col lg={2} >
-                                <Nav.Link href="#link">WHERE TO FIND US</Nav.Link>
+                                <Nav.Link href="#link" className="box-shadow">WHERE TO FIND US</Nav.Link>
                             </Col>                                                
                         </Nav>
                     </Navbar.Collapse>
