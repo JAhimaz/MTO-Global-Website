@@ -50,8 +50,16 @@
   height: 5em;
 }
 
+.navigation-logo-2{
+  opacity: 0%;
+}
+
 .navigation-logo:hover{
   opacity: 0%;
+}
+
+.navigation-logo-2:hover{
+  opacity: 100%;
 }
 
 .navigation-logo-2{
@@ -142,7 +150,7 @@
     left: 0;
     right: 0;
     top: -50%;
-    z-index: -2;
+    z-index: 2;
   }
   
 }
