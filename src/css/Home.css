@@ -1,13 +1,19 @@
 @import '../css/root.css';
 
 .carousel{
-    height: 20em !important;
+    flex-grow: 1 ;   
     z-index: 5;
+    height: 100% !important;
     overflow: hidden !important;
+}
+
+.container-fluid{
+    flex-grow: 1 !important;
 }
 
 .margin-carousel{
     margin-top: 2%;
+    align-items: stretch;
     /* z-index: -1; */
 }
 
@@ -45,16 +51,25 @@
 }
 
 .carousel-item{
-    height: 20em !important;
+     height: 100% !important;
+     width: 100% !important;
+}
+
+.carousel-inner{
+    height: 100% !important;
+    width: 100% !important;
 }
 
 .slide-img-overlay{
     position: absolute;
-    height: 20em !important;
+    flex-grow: 1 !important;
+    height: 100% !important;
+    width: 100% !important;
 }
 
 .slide-img{
-    height: 20em !important;
+     height: 100% !important;
+     width: 100% !important;
 }
 
 .text-bg{
@@ -80,12 +95,17 @@
 .btn {    
     background: var(--btn-background-color) !important; 
     border-color: var(--btn-border-color) !important;
-    padding: .575rem 1rem !important;
-    font-size: var(--small-font) !important;
+    padding: .4rem .9rem !important;
+    font-size: var(--xxsmall-font) !important;
     font-weight: bold !important;
     color: white !important;
     border-radius: 0px !important;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+
+.btn:hover{
+    background-color: var(--btn-border-color) !important;
+    color: black !important;    
 }
 
 
@@ -101,9 +121,9 @@
 
 /* # Desktop [ >= 1200px ] # */
 @media only screen and (min-width: 1200px) {
-    .carousel{
+    /* .carousel{
         height: 25em !important;
-    }
+    } */
 
     .carousel-indicators [data-bs-target] {
         width: 0.85em !important;
@@ -111,7 +131,7 @@
         border-radius: 100% !important;        
     }
 
-    .carousel-item{
+    /* .carousel-item{
         height: 25em !important;
     }
 
@@ -121,7 +141,7 @@
 
     .slide-img-overlay{
         height: 26em !important;
-    }
+    } */
 
     .carousel-indicators{
         position: absolute;
@@ -149,9 +169,9 @@
         font-size: var(--large-font) !important;
     }
 
-    .btn {    
+    /* .btn {    
         font-size: var(--medium-font) !important;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1400px){
@@ -169,14 +189,13 @@
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--medium-font) !important;
     }
 }
 
 @media only screen and (min-width: 1920px){
-    .carousel, .carousel-item, .slide-img, .slide-img-overlay { 
+    /* .carousel, .carousel-item, .slide-img, .slide-img-overlay { 
         height: 28em !important;
-    }
+    } */
 
     /* .carousel-item{
         height: 32em !important;
@@ -201,8 +220,8 @@
 
     .btn {    
         margin-top: 25px;
-        font-size: var(--medium-font) !important;
-        padding: .8rem 5rem !important;
+        /* font-size: var(--medium-font) !important; */
+         
     }
 
     .carousel-indicators{

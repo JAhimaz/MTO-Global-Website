@@ -26,7 +26,7 @@ export const Footer = () => {
                 </Col>
                 <Col sm={12} lg={6}>
                     <div className="icon">
-                        <a href="#"><img src={SHOPEE} alt="shopee"/></a>
+                        <a href="#"><img src={SHOPEE} alt="shopee" className="icon-img" style={{padding: "0px"}} /></a>
                         <a href="#"><img src={LAZADA} alt="lazada" className="icon-img"/></a>
                         <a href="#"><img src={FB} alt="Facebook" className="icon-img"/></a>
                         <a href="#"><img src={YOUTUBE} alt="Youtube" className="icon-img"/></a>
