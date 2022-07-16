@@ -149,7 +149,7 @@
         bottom: 5% !important;
         justify-content: start !important;
         margin-right: auto !important;
-        margin-bottom: 1rem !;
+        margin-bottom: 2rem !;
         margin-left: 15% !important;
         list-style: none;
     }
@@ -176,7 +176,7 @@
 
 @media only screen and (min-width: 1400px){
     .carousel-indicators{
-        bottom: 1% !important;
+        bottom: 10% !important;
     }
     .caption-title{
         font-size: var(--large-font) !important;
@@ -208,6 +208,9 @@
     .slide-img-overlay{
         height: 32em !important;
     } */
+    .carousel-indicators{
+        margin-bottom: 5rem !important;
+    }
 
     .caption-title{
         font-size: var(--large-font) !important;
